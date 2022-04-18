@@ -1,0 +1,67 @@
+@import "./constants.css";
+
+.store-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  top: 0;
+  background-color: var(--prussian-blue);
+  z-index: 1;
+}
+
+.store-brand {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.btn-new-product {
+    height: 40px;
+    width: 140px;
+    padding: 10px;
+    color: var(--white-color);
+    font-size: medium;
+    font-weight: bold;
+    background-color: var(--mikado-yellow);
+    border-radius: 6px;
+    border-width: 0px;
+    margin-left: 16px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-new-product:hover {
+    color: var(--oxford-blue);
+    background-color: var(--gold-web-golden);
+}
+
+.shopping-cart {
+    height: 40px;
+    width: 70px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--mikado-yellow);
+    margin-right: 20px;
+    border-radius: 6px;
+}
+
+.shopping-cart:hover {
+    background-color: var(--gold-web-golden);
+}
+
+.shopping-cart p {
+    color: var(--oxford-blue);
+    font-size: 150%;
+    text-decoration: none;
+}

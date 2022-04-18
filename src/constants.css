@@ -1,0 +1,32 @@
+:root {
+  --gold-web-golden: #FFD60A;
+  --mikado-yellow: #FFC300;
+  --prussian-blue: #003566;
+  --oxford-blue: #001D3D;
+  --gray-dark-color: #323232;
+  --gray-medium-color: #d4d9e2;
+  --white-color: #ffffff;
+  --imperial-red: #E63946;
+  --celadon-blue: #457B9D;
+}
+
+html,
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  color: var(--blue-medium-color);
+}
+
+/* Font Sizes */
+.fs-14 {
+  font-size: 0.875rem !important;
+}
+
+.fs-18 {
+  font-size: 1.125rem !important;
+}

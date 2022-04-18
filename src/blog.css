@@ -1,0 +1,146 @@
+@import "./constants.css";
+
+.container-products {
+  padding: 20px;
+  display: grid;
+  grid: auto auto / auto auto auto auto;
+  grid-gap: 20px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  border-radius: 16px;
+  background-color: var(--prussian-blue);
+  position: relative;
+}
+
+.product-image {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.product-image img {
+  border: 3px solid var(--white-color);
+  border-radius: 16px;
+}
+
+.product-details {
+  padding-left: 22px;
+  padding-right: 22px;
+  color: var(--white-color);
+  margin-bottom: 50px;
+}
+
+.product-details h1 {
+  margin-bottom: 0px;
+}
+
+.btn-add-to-cart{
+  height: 50px;
+  font-size: medium;
+  font-weight: bold;
+  border: none;
+  overflow: hidden;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  position: absolute;
+  bottom: 0px;
+  width: 350px;
+  color: var(--white-color);
+  background-color: var(--oxford-blue);
+}
+
+.btn-add-to-cart:hover {
+  color: var(--oxford-blue);
+  background-color: var(--mikado-yellow);
+}
+
+.btn-remove-from-cart{
+  height: 50px;
+  font-size: medium;
+  font-weight: bold;
+  border: none;
+  overflow: hidden;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  position: absolute;
+  bottom: 0px;
+  width: 350px;
+  color: var(--white-color);
+  background-color: var(--imperial-red);
+}
+
+.btn-remove-from-cart:hover {
+  color: var(--oxford-blue);
+  background-color: var(--mikado-yellow);
+}
+
+.product-action-buttons {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+}
+
+.btn-edit-product{
+  height: 50px;
+  font-size: medium;
+  font-weight: bold;
+  border: none;
+  overflow: hidden;
+  border-bottom-right-radius: 16px;
+  width: 175px;
+  color: var(--white-color);
+  background-color: var(--celadon-blue);
+}
+
+.btn-edit-product:hover {
+  color: var(--oxford-blue);
+  background-color: var(--mikado-yellow);
+}
+
+.btn-delete-product{
+  height: 50px;
+  font-size: medium;
+  font-weight: bold;
+  border: none;
+  overflow: hidden;
+  border-bottom-left-radius: 16px;
+  width: 175px;
+  color: var(--white-color);
+  background-color: var(--imperial-red);
+}
+
+.btn-delete-product:hover {
+  color: var(--oxford-blue);
+  background-color: var(--mikado-yellow);
+}
+
+.footer {
+  background-color: var(--prussian-blue);
+  color: var(--white-color);
+  font-weight: bold;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.not-found {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  color: var(--prussian-blue);
+  font-size: 96px;
+}
+
+.page-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  color: var(--prussian-blue);
+  font-size: 40px;
+  font-weight: bold;
+}

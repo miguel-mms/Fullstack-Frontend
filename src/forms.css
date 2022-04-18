@@ -1,0 +1,85 @@
+@import "./constants.css";
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: var(--white-color)
+}
+
+.post-form, .checkout-form{
+  position: sticky;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 16px;
+  min-width: 50%;
+  background-color: var(--white-color);
+  border: solid 4px;
+  border-color: var(--prussian-blue);
+  border-radius: 6px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.input-field label {
+  color: var(--oxford-blue);
+  margin-bottom: 12px;
+}
+
+.input-field input {
+  border-radius: 4px;
+  border-width: 1px;
+  min-height: 45px;
+  font-size: medium;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.input-field textarea {
+  border-radius: 4px;
+  border-width: 1px;
+  min-height: 45px;
+  font-size: large;
+  padding: 8px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 16px;
+}
+
+.buttons-container button, .buttons-container a {
+    height: 40px;
+    width: 140px;
+    padding: 10px;
+    color: white;
+    font-size: medium;
+    border-radius: 6px;
+    border-width: 0px;
+    margin-left: 16px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+.buttons-container button {
+  background-color: var(--celadon-blue);
+}
+
+.buttons-container a {
+  background-color: var(--imperial-red);
+}
+
+.buttons-container button:hover:not([disabled]), .buttons-container a:hover {
+  opacity: 1;
+}
+
+.buttons-container button:disabled {
+  background-color: var(--gray-medium-color);
+}
